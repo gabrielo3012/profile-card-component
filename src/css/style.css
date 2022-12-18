@@ -1,0 +1,93 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: hsl(185, 75%, 39%);
+  height: 100%;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.card-container {
+  background-color: #FFFFFF;
+  width: 350px;
+  margin: 20px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  position: relative;
+  z-index: 10;
+}
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 20px 30px 20px;
+}
+
+.card-container .card-info img {
+  border-radius: 50%;
+  transform: translateY(-75%);
+  border: 5px solid #fefefe;
+}
+
+.card-info h2,
+.social-card .social-count{
+  font-size: 1.8rem;
+  color: hsl(229, 23%, 23%);
+  font-weight: 700;
+}
+
+.card-info h2 {
+  margin-top: -80px;
+  padding-top: 15px;
+}
+
+.card-info .age {
+  color: hsl(227, 10%, 46%);
+  font-weight: 400;
+  margin-left: 5px;
+}
+
+.card-info p {
+  font-size: 1.4rem;
+  font-weight: 400;
+  margin-top: 5px;
+}
+
+.social-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  border-top: solid 1px hsla(225, 12%, 80%, 0.331);
+  padding: 25px 20px 25px 20px;
+}
+
+.social-card p {
+  font-size: 1rem;
+  letter-spacing: 1.5px;
+}
+
+.bg-img-top {
+  position: absolute;
+  top: -50%;
+  right: 50%;
+  z-index: 9;
+}
+
+.bg-img-bottom {
+  position: absolute;
+  bottom: -50%;
+  left: 50%;
+  z-index: 9;
+}
